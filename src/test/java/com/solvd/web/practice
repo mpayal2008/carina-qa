@@ -1,0 +1,23 @@
+Scenarios:
+1.Sign-In and Sign-Out:
+
+Open the Amazon homepage.
+Click on the "Sign-In" button.
+Enter valid credentials (username and password) and click "Sign-In."
+Verify that the user is successfully signed in.
+Click on the account menu and select "Sign-Out."
+Verify that the user is signed out and redirected to the homepage.
+
+2. Search for a Product:
+
+Open the Amazon homepage.
+Enter a product name (e.g., "laptop") in the search bar.
+Click on the search button.
+Verify that the search results page is displayed.
+
+3.Filter and Sort Search Results:
+
+Search for a product as mentioned in scenario 1.
+Apply specific filters (e.g., brand, price range, etc.).
+Sort the search results by a particular criterion (e.g., price, customer ratings).
+Verify that the results are correctly filtered and sorted.

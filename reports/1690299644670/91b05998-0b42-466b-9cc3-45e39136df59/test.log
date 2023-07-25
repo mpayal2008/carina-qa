@@ -1,0 +1,3 @@
+[2023-07-25 03:40:48] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-25 03:40:48] [1] [INFO] TEST [carina-qa - signInWithValidCredentials] STARTED at [11:40:48 2023-07-25]
+[2023-07-25 03:40:48] [1] [INFO] Starting driver session...
