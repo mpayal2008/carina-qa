@@ -2,7 +2,6 @@
 <suite name="Web Automation Suite">
     <test name="Web Test">
         <parameter name="config" value="_config.properties"/>
-        <parameter name="amazon" value="_localAmazon.properties"/>
         <classes>
             <class name="com.solvd.web.amazon.AmazonTest"/>
             <!-- Add more test classes here if needed -->
