@@ -5,7 +5,7 @@ import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-public class AmazonSignIn extends AbstractPage {
+public class AmazonSignInPage extends AbstractPage {
 
     @FindBy(xpath = "//*[@id=\"nav-link-accountList\"]")
     private ExtendedWebElement signInSelector;
@@ -20,10 +20,11 @@ public class AmazonSignIn extends AbstractPage {
     @FindBy(xpath = "//*[@id=\"auth-error-message-box\"]")
     private ExtendedWebElement error;
 
-    protected AmazonSignIn(WebDriver driver) {
+    protected AmazonSignInPage(WebDriver driver) {
         super(driver);
 
     }
+
     public void signInOption(){
         signInSelector.click();
     }
